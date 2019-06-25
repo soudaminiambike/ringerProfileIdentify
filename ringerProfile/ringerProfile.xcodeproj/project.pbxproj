@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		785816E522C24211000F4BC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785816E422C24211000F4BC2 /* AppDelegate.swift */; };
+		785816E722C24211000F4BC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785816E622C24211000F4BC2 /* ViewController.swift */; };
+		785816EA22C24211000F4BC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785816E822C24211000F4BC2 /* Main.storyboard */; };
+		785816EC22C24215000F4BC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 785816EB22C24215000F4BC2 /* Assets.xcassets */; };
+		785816EF22C24215000F4BC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785816ED22C24215000F4BC2 /* LaunchScreen.storyboard */; };
+		785816FA22C24215000F4BC2 /* ringerProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785816F922C24215000F4BC2 /* ringerProfileTests.swift */; };
+		7858170522C24215000F4BC2 /* ringerProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7858170422C24215000F4BC2 /* ringerProfileUITests.swift */; };
+		7858171322C24C7F000F4BC2 /* Mute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7858171222C24C7F000F4BC2 /* Mute.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		785816F622C24215000F4BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785816D922C24211000F4BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785816E022C24211000F4BC2;
+			remoteInfo = ringerProfile;
+		};
+		7858170122C24215000F4BC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 785816D922C24211000F4BC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785816E022C24211000F4BC2;
+			remoteInfo = ringerProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		785816E122C24211000F4BC2 /* ringerProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ringerProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		785816E422C24211000F4BC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		785816E622C24211000F4BC2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		785816E922C24211000F4BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		785816EB22C24215000F4BC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		785816EE22C24215000F4BC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		785816F022C24215000F4BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		785816F522C24215000F4BC2 /* ringerProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringerProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		785816F922C24215000F4BC2 /* ringerProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringerProfileTests.swift; sourceTree = "<group>"; };
+		785816FB22C24215000F4BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7858170022C24215000F4BC2 /* ringerProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ringerProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7858170422C24215000F4BC2 /* ringerProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ringerProfileUITests.swift; sourceTree = "<group>"; };
+		7858170622C24215000F4BC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7858171222C24C7F000F4BC2 /* Mute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mute.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		785816DE22C24211000F4BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816F222C24215000F4BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816FD22C24215000F4BC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		785816D822C24211000F4BC2 = {
+			isa = PBXGroup;
+			children = (
+				785816E322C24211000F4BC2 /* ringerProfile */,
+				785816F822C24215000F4BC2 /* ringerProfileTests */,
+				7858170322C24215000F4BC2 /* ringerProfileUITests */,
+				785816E222C24211000F4BC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		785816E222C24211000F4BC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				785816E122C24211000F4BC2 /* ringerProfile.app */,
+				785816F522C24215000F4BC2 /* ringerProfileTests.xctest */,
+				7858170022C24215000F4BC2 /* ringerProfileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		785816E322C24211000F4BC2 /* ringerProfile */ = {
+			isa = PBXGroup;
+			children = (
+				785816E422C24211000F4BC2 /* AppDelegate.swift */,
+				785816E622C24211000F4BC2 /* ViewController.swift */,
+				785816E822C24211000F4BC2 /* Main.storyboard */,
+				785816EB22C24215000F4BC2 /* Assets.xcassets */,
+				785816ED22C24215000F4BC2 /* LaunchScreen.storyboard */,
+				785816F022C24215000F4BC2 /* Info.plist */,
+				7858171222C24C7F000F4BC2 /* Mute.swift */,
+			);
+			path = ringerProfile;
+			sourceTree = "<group>";
+		};
+		785816F822C24215000F4BC2 /* ringerProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				785816F922C24215000F4BC2 /* ringerProfileTests.swift */,
+				785816FB22C24215000F4BC2 /* Info.plist */,
+			);
+			path = ringerProfileTests;
+			sourceTree = "<group>";
+		};
+		7858170322C24215000F4BC2 /* ringerProfileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7858170422C24215000F4BC2 /* ringerProfileUITests.swift */,
+				7858170622C24215000F4BC2 /* Info.plist */,
+			);
+			path = ringerProfileUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		785816E022C24211000F4BC2 /* ringerProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7858170922C24215000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfile" */;
+			buildPhases = (
+				785816DD22C24211000F4BC2 /* Sources */,
+				785816DE22C24211000F4BC2 /* Frameworks */,
+				785816DF22C24211000F4BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ringerProfile;
+			productName = ringerProfile;
+			productReference = 785816E122C24211000F4BC2 /* ringerProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		785816F422C24215000F4BC2 /* ringerProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7858170C22C24216000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfileTests" */;
+			buildPhases = (
+				785816F122C24215000F4BC2 /* Sources */,
+				785816F222C24215000F4BC2 /* Frameworks */,
+				785816F322C24215000F4BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				785816F722C24215000F4BC2 /* PBXTargetDependency */,
+			);
+			name = ringerProfileTests;
+			productName = ringerProfileTests;
+			productReference = 785816F522C24215000F4BC2 /* ringerProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		785816FF22C24215000F4BC2 /* ringerProfileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7858170F22C24216000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfileUITests" */;
+			buildPhases = (
+				785816FC22C24215000F4BC2 /* Sources */,
+				785816FD22C24215000F4BC2 /* Frameworks */,
+				785816FE22C24215000F4BC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7858170222C24215000F4BC2 /* PBXTargetDependency */,
+			);
+			name = ringerProfileUITests;
+			productName = ringerProfileUITests;
+			productReference = 7858170022C24215000F4BC2 /* ringerProfileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		785816D922C24211000F4BC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Soudamini Ambike";
+				TargetAttributes = {
+					785816E022C24211000F4BC2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					785816F422C24215000F4BC2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 785816E022C24211000F4BC2;
+					};
+					785816FF22C24215000F4BC2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 785816E022C24211000F4BC2;
+					};
+				};
+			};
+			buildConfigurationList = 785816DC22C24211000F4BC2 /* Build configuration list for PBXProject "ringerProfile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 785816D822C24211000F4BC2;
+			productRefGroup = 785816E222C24211000F4BC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785816E022C24211000F4BC2 /* ringerProfile */,
+				785816F422C24215000F4BC2 /* ringerProfileTests */,
+				785816FF22C24215000F4BC2 /* ringerProfileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		785816DF22C24211000F4BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785816EF22C24215000F4BC2 /* LaunchScreen.storyboard in Resources */,
+				785816EC22C24215000F4BC2 /* Assets.xcassets in Resources */,
+				785816EA22C24211000F4BC2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816F322C24215000F4BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816FE22C24215000F4BC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		785816DD22C24211000F4BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785816E722C24211000F4BC2 /* ViewController.swift in Sources */,
+				785816E522C24211000F4BC2 /* AppDelegate.swift in Sources */,
+				7858171322C24C7F000F4BC2 /* Mute.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816F122C24215000F4BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785816FA22C24215000F4BC2 /* ringerProfileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785816FC22C24215000F4BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7858170522C24215000F4BC2 /* ringerProfileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		785816F722C24215000F4BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785816E022C24211000F4BC2 /* ringerProfile */;
+			targetProxy = 785816F622C24215000F4BC2 /* PBXContainerItemProxy */;
+		};
+		7858170222C24215000F4BC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 785816E022C24211000F4BC2 /* ringerProfile */;
+			targetProxy = 7858170122C24215000F4BC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		785816E822C24211000F4BC2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785816E922C24211000F4BC2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		785816ED22C24215000F4BC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				785816EE22C24215000F4BC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7858170722C24215000F4BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7858170822C24215000F4BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7858170A22C24215000F4BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7ASL5Z677;
+				INFOPLIST_FILE = ringerProfile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7858170B22C24215000F4BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7ASL5Z677;
+				INFOPLIST_FILE = ringerProfile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7858170D22C24216000F4BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ringerProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringerProfile.app/ringerProfile";
+			};
+			name = Debug;
+		};
+		7858170E22C24216000F4BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ringerProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ringerProfile.app/ringerProfile";
+			};
+			name = Release;
+		};
+		7858171022C24216000F4BC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ringerProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ringerProfile;
+			};
+			name = Debug;
+		};
+		7858171122C24216000F4BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ringerProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.ringerProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ringerProfile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		785816DC22C24211000F4BC2 /* Build configuration list for PBXProject "ringerProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858170722C24215000F4BC2 /* Debug */,
+				7858170822C24215000F4BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7858170922C24215000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858170A22C24215000F4BC2 /* Debug */,
+				7858170B22C24215000F4BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7858170C22C24216000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858170D22C24216000F4BC2 /* Debug */,
+				7858170E22C24216000F4BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7858170F22C24216000F4BC2 /* Build configuration list for PBXNativeTarget "ringerProfileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7858171022C24216000F4BC2 /* Debug */,
+				7858171122C24216000F4BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 785816D922C24211000F4BC2 /* Project object */;
+}
